@@ -21,3 +21,5 @@ dist/
 .task/
 work/
 chat.*.json
+.idea
+bin/
