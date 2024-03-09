@@ -78,7 +78,7 @@ func newChatCmd(ui *rwi.RWI) *cobra.Command {
 				return debugPrint(ui, err)
 			}
 
-			var msgs []string = []string{}
+			var msgs []string
 			// message from command-line
 			if len(msg) > 0 {
 				msgs = append(msgs, msg)

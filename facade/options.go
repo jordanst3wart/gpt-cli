@@ -38,12 +38,12 @@ func getOptions() (*options, error) {
 	}, nil
 }
 
-func getFiles(ss []string) ([]string, error) {
+func getFiles(attachments []string) ([]string, error) {
 	paths := map[string]bool{}
-	for _, s := range ss {
-		pp, err := filepath.Glob(s)
+	for _, attachment := range attachments {
+		pp, err := filepath.Glob(attachment)
 		if err != nil {
-			return nil, errs.Wrap(err, errs.WithContext("path", s))
+			return nil, errs.Wrap(err, errs.WithContext("path", attachment))
 		}
 		for _, p := range pp {
 			paths[p] = true
