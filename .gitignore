@@ -22,4 +22,4 @@ dist/
 work/
 chat.*.json
 .idea
-bin/
+dist/

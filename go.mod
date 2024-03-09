@@ -6,10 +6,10 @@ require (
 	github.com/atotto/clipboard v0.1.4
 	github.com/goark/errs v1.3.2
 	github.com/goark/gocli v0.13.0
-	github.com/hymkor/go-multiline-ny v0.7.2
-	github.com/nyaosorg/go-readline-ny v0.11.4
+	github.com/hymkor/go-multiline-ny v0.12.1
+	github.com/nyaosorg/go-readline-ny v1.2.0
 	github.com/rs/zerolog v1.32.0
-	github.com/sashabaranov/go-openai v1.9.3
+	github.com/sashabaranov/go-openai v1.20.2
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.18.2
 )
@@ -21,7 +21,7 @@ require (
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
-	github.com/mattn/go-runewidth v0.0.14 // indirect
+	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mattn/go-tty v0.0.5 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.0 // indirect
@@ -38,7 +38,7 @@ require (
 	go.uber.org/multierr v1.9.0 // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
 	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/term v0.8.0 // indirect
+	golang.org/x/term v0.12.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
